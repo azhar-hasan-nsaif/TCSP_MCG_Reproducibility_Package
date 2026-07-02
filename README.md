@@ -6,11 +6,6 @@ Class Groups*. It regenerates corrected Table 14, formula worksheets, plots,
 deterministic symbolic test vectors, and reviewer-facing reports from the
 stated parameter model.
 
-Warning: this is research reproducibility code for formulas, serialization,
-and deterministic symbolic test vectors. It is not production cryptographic
-software and does not claim to be a certified computational mapping-class-group
-implementation.
-
 ## Reviewer Comment 8
 
 The artifact answers the reviewer reproducibility request by providing scripts
@@ -196,9 +191,3 @@ saved under `outputs/test_vectors/`.
 Use `CITATION.cff` when citing this artifact, together with the associated
 manuscript.
 
-## Limitations
-
-This repository is an archival reproducibility system for the corrected
-numerical estimates, serialization conventions, and symbolic deterministic
-workflow. It is not a production cryptographic implementation and does not
-certify pseudo-Anosov behavior or exact mapping-class-group normal forms.
