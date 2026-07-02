@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+pydantic>=2.7
+pytest>=8.2
+rich>=13.7
+typer>=0.12
+streamlit>=1.36
+openpyxl>=3.1
+python-docx>=1.1
+tabulate>=0.9

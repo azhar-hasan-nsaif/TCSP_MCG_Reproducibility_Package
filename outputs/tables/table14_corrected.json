@@ -1,0 +1,38 @@
+[
+  {
+    "Profile":"A",
+    "Nominal PQ target lambda_q":128,
+    "L":96,
+    "Genus g = ceil(g0 + beta L)":70,
+    "E bits, not serialized":512,
+    "log2 T_cl":384,
+    "log2 T_q":192,
+    "Public key bits":1536,
+    "Secret key bits":384,
+    "Ciphertext bits":1792
+  },
+  {
+    "Profile":"B",
+    "Nominal PQ target lambda_q":192,
+    "L":144,
+    "Genus g = ceil(g0 + beta L)":102,
+    "E bits, not serialized":768,
+    "log2 T_cl":576,
+    "log2 T_q":288,
+    "Public key bits":2304,
+    "Secret key bits":576,
+    "Ciphertext bits":2176
+  },
+  {
+    "Profile":"C",
+    "Nominal PQ target lambda_q":256,
+    "L":192,
+    "Genus g = ceil(g0 + beta L)":134,
+    "E bits, not serialized":1024,
+    "log2 T_cl":768,
+    "log2 T_q":384,
+    "Public key bits":3072,
+    "Secret key bits":768,
+    "Ciphertext bits":2560
+  }
+]

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "TCSP-MCG Reproducibility Package"
+message: "If you use this artifact, please cite it with the associated manuscript."
+type: software
+authors:
+  - name: "TCSP-MCG Reproducibility Artifact Authors"
+version: "1.0.0"
+date-released: "2026-07-02"
+abstract: "Scripts, formulas, serialization rules, deterministic symbolic test vectors, plots, and reports for Table 14 of the TCSP-MCG manuscript."
+license: MIT

@@ -1,0 +1,50 @@
+[
+  {
+    "Profile":"A",
+    "Seed":"artifact-v1",
+    "Decrypts correctly":true,
+    "raw symbolic c1 length":288,
+    "raw symbolic c2 length":736,
+    "raw symbolic mu length":256,
+    "table14 c1 representative length":96,
+    "table14 c2 mask representative length":96,
+    "table14 ell_mu":256,
+    "table14 ciphertext bits":1792,
+    "s_E":0,
+    "E is serialized":false,
+    "E bits not serialized":512,
+    "k sha256":"4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "Profile":"B",
+    "Seed":"artifact-v1",
+    "Decrypts correctly":true,
+    "raw symbolic c1 length":1008,
+    "raw symbolic c2 length":1552,
+    "raw symbolic mu length":256,
+    "table14 c1 representative length":144,
+    "table14 c2 mask representative length":144,
+    "table14 ell_mu":256,
+    "table14 ciphertext bits":2176,
+    "s_E":0,
+    "E is serialized":false,
+    "E bits not serialized":768,
+    "k sha256":"7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "Profile":"C",
+    "Seed":"artifact-v1",
+    "Decrypts correctly":true,
+    "raw symbolic c1 length":1152,
+    "raw symbolic c2 length":1792,
+    "raw symbolic mu length":256,
+    "table14 c1 representative length":192,
+    "table14 c2 mask representative length":192,
+    "table14 ell_mu":256,
+    "table14 ciphertext bits":2560,
+    "s_E":0,
+    "E is serialized":false,
+    "E bits not serialized":1024,
+    "k sha256":"e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  }
+]

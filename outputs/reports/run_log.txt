@@ -1,0 +1,43 @@
+﻿TCSP-MCG Reproducibility Package Public Release Report
+Status: SUCCESS
+
+1. Repository cleaned.
+2. .gitignore updated.
+3. Absolute paths removed from public reports.
+4. Test-vector serialization-model metadata added.
+5. Raw symbolic lengths renamed and clarified.
+6. Documentation updated.
+7. Private debug data excluded.
+8. Table 14 regenerated and verified.
+9. All tests passed.
+10. Public-ready ZIP created: TCSP_MCG_Reproducibility_Package_PUBLIC_READY.zip
+
+Saved public artifacts:
+1. Table 14 CSV saved to outputs/tables/table14_corrected.csv
+2. Table 14 XLSX saved to outputs/tables/table14_corrected.xlsx
+3. Table 14 JSON saved to outputs/tables/table14_corrected.json
+4. Table 14 Markdown saved to outputs/tables/table14_corrected.md
+5. Formula breakdown CSV saved to outputs/tables/formula_breakdown.csv
+6. Formula breakdown XLSX saved to outputs/tables/formula_breakdown.xlsx
+7. Profile A test vector saved to outputs/test_vectors/profile_A_test_vector.json
+8. Profile B test vector saved to outputs/test_vectors/profile_B_test_vector.json
+9. Profile C test vector saved to outputs/test_vectors/profile_C_test_vector.json
+10. Test-vector summary CSV saved to outputs/test_vectors/test_vector_summary.csv
+11. Test-vector summary XLSX saved to outputs/test_vectors/test_vector_summary.xlsx
+12. Test-vector summary JSON saved to outputs/test_vectors/test_vector_summary.json
+13. Test-vector summary Markdown saved to outputs/test_vectors/test_vector_summary.md
+14. Plots saved to outputs/plots/
+15. Reproducibility report saved to outputs/reports/reproducibility_report.md
+16. Reviewer artifact report saved to outputs/reports/reviewer_response_artifact.md
+17. Validation summary saved to outputs/reports/validation_summary.txt
+
+Validation details:
+- Table 14 rows and column names exactly match the corrected model.
+- Public reports use repository-relative paths only.
+- Public test vectors include table14_serialization_model.
+- Raw symbolic lengths are distinguished from Table 14 representative lengths.
+- E is not serialized and s_E = 0 in public profiles.
+- ciphertext_bits = (2L + ell_mu) C_pk for all profiles.
+- Deterministic symbolic encryption/decryption validates correctly.
+- run_all.bat passed with pytest: 16 tests.
+- Release ZIP excludes .venv, caches, pyc files, .pytest_cache, .DS_Store, and outputs/test_vectors/private_debug/.

@@ -1,0 +1,4 @@
+Profile,r0,gamma = log2(2*r0),alpha,beta,delta,g0,C_pk,lambda_c,lambda_q,"max(lambda_c, 2lambda_q)",L_min,L,ell_pk = 2L,m_b raw plaintext bits,ell_mu encoded generator slots,s_E optional extension bits,E,E serialized,pk bits = 4LC_pk,sk bits = LC_pk,ciphertext bits = (2L+ell_mu)C_pk+s_E
+A,8,4.0,1.5,0.6666666666666666,2.0,6,4,128,128,256,64.0,96,192,256,256,0,512,False,1536,384,1792
+B,8,4.0,1.5,0.6666666666666666,2.0,6,4,192,192,384,96.0,144,288,256,256,0,768,False,2304,576,2176
+C,8,4.0,1.5,0.6666666666666666,2.0,6,4,256,256,512,128.0,192,384,256,256,0,1024,False,3072,768,2560
